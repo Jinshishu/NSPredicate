@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C6BE441DE6865900852626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C6BE431DE6865900852626 /* main.m */; };
+		43C6BE471DE6865900852626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C6BE461DE6865900852626 /* AppDelegate.m */; };
+		43C6BE4A1DE6865900852626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C6BE491DE6865900852626 /* ViewController.m */; };
+		43C6BE4D1DE6865900852626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C6BE4B1DE6865900852626 /* Main.storyboard */; };
+		43C6BE4F1DE6865900852626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C6BE4E1DE6865900852626 /* Assets.xcassets */; };
+		43C6BE521DE6865900852626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C6BE501DE6865900852626 /* LaunchScreen.storyboard */; };
+		43C6BE5D1DE6865900852626 /* Dome_NSPredicateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C6BE5C1DE6865900852626 /* Dome_NSPredicateTests.m */; };
+		43C6BE681DE6865900852626 /* Dome_NSPredicateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C6BE671DE6865900852626 /* Dome_NSPredicateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C6BE591DE6865900852626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C6BE371DE6865900852626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C6BE3E1DE6865900852626;
+			remoteInfo = "Dome-NSPredicate";
+		};
+		43C6BE641DE6865900852626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C6BE371DE6865900852626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C6BE3E1DE6865900852626;
+			remoteInfo = "Dome-NSPredicate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C6BE3F1DE6865900852626 /* Dome-NSPredicate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dome-NSPredicate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C6BE431DE6865900852626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43C6BE451DE6865900852626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43C6BE461DE6865900852626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43C6BE481DE6865900852626 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43C6BE491DE6865900852626 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43C6BE4C1DE6865900852626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C6BE4E1DE6865900852626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C6BE511DE6865900852626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C6BE531DE6865900852626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C6BE581DE6865900852626 /* Dome-NSPredicateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dome-NSPredicateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C6BE5C1DE6865900852626 /* Dome_NSPredicateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dome_NSPredicateTests.m; sourceTree = "<group>"; };
+		43C6BE5E1DE6865900852626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C6BE631DE6865900852626 /* Dome-NSPredicateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dome-NSPredicateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C6BE671DE6865900852626 /* Dome_NSPredicateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dome_NSPredicateUITests.m; sourceTree = "<group>"; };
+		43C6BE691DE6865900852626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C6BE3C1DE6865900852626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE551DE6865900852626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE601DE6865900852626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C6BE361DE6865900852626 = {
+			isa = PBXGroup;
+			children = (
+				43C6BE411DE6865900852626 /* Dome-NSPredicate */,
+				43C6BE5B1DE6865900852626 /* Dome-NSPredicateTests */,
+				43C6BE661DE6865900852626 /* Dome-NSPredicateUITests */,
+				43C6BE401DE6865900852626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C6BE401DE6865900852626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C6BE3F1DE6865900852626 /* Dome-NSPredicate.app */,
+				43C6BE581DE6865900852626 /* Dome-NSPredicateTests.xctest */,
+				43C6BE631DE6865900852626 /* Dome-NSPredicateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C6BE411DE6865900852626 /* Dome-NSPredicate */ = {
+			isa = PBXGroup;
+			children = (
+				43C6BE451DE6865900852626 /* AppDelegate.h */,
+				43C6BE461DE6865900852626 /* AppDelegate.m */,
+				43C6BE481DE6865900852626 /* ViewController.h */,
+				43C6BE491DE6865900852626 /* ViewController.m */,
+				43C6BE4B1DE6865900852626 /* Main.storyboard */,
+				43C6BE4E1DE6865900852626 /* Assets.xcassets */,
+				43C6BE501DE6865900852626 /* LaunchScreen.storyboard */,
+				43C6BE531DE6865900852626 /* Info.plist */,
+				43C6BE421DE6865900852626 /* Supporting Files */,
+			);
+			path = "Dome-NSPredicate";
+			sourceTree = "<group>";
+		};
+		43C6BE421DE6865900852626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C6BE431DE6865900852626 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43C6BE5B1DE6865900852626 /* Dome-NSPredicateTests */ = {
+			isa = PBXGroup;
+			children = (
+				43C6BE5C1DE6865900852626 /* Dome_NSPredicateTests.m */,
+				43C6BE5E1DE6865900852626 /* Info.plist */,
+			);
+			path = "Dome-NSPredicateTests";
+			sourceTree = "<group>";
+		};
+		43C6BE661DE6865900852626 /* Dome-NSPredicateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43C6BE671DE6865900852626 /* Dome_NSPredicateUITests.m */,
+				43C6BE691DE6865900852626 /* Info.plist */,
+			);
+			path = "Dome-NSPredicateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C6BE3E1DE6865900852626 /* Dome-NSPredicate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C6BE6C1DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicate" */;
+			buildPhases = (
+				43C6BE3B1DE6865900852626 /* Sources */,
+				43C6BE3C1DE6865900852626 /* Frameworks */,
+				43C6BE3D1DE6865900852626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dome-NSPredicate";
+			productName = "Dome-NSPredicate";
+			productReference = 43C6BE3F1DE6865900852626 /* Dome-NSPredicate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C6BE571DE6865900852626 /* Dome-NSPredicateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C6BE6F1DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicateTests" */;
+			buildPhases = (
+				43C6BE541DE6865900852626 /* Sources */,
+				43C6BE551DE6865900852626 /* Frameworks */,
+				43C6BE561DE6865900852626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C6BE5A1DE6865900852626 /* PBXTargetDependency */,
+			);
+			name = "Dome-NSPredicateTests";
+			productName = "Dome-NSPredicateTests";
+			productReference = 43C6BE581DE6865900852626 /* Dome-NSPredicateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43C6BE621DE6865900852626 /* Dome-NSPredicateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C6BE721DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicateUITests" */;
+			buildPhases = (
+				43C6BE5F1DE6865900852626 /* Sources */,
+				43C6BE601DE6865900852626 /* Frameworks */,
+				43C6BE611DE6865900852626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C6BE651DE6865900852626 /* PBXTargetDependency */,
+			);
+			name = "Dome-NSPredicateUITests";
+			productName = "Dome-NSPredicateUITests";
+			productReference = 43C6BE631DE6865900852626 /* Dome-NSPredicateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C6BE371DE6865900852626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Daniel.Jin;
+				TargetAttributes = {
+					43C6BE3E1DE6865900852626 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ESMC7764JR;
+						ProvisioningStyle = Automatic;
+					};
+					43C6BE571DE6865900852626 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ESMC7764JR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43C6BE3E1DE6865900852626;
+					};
+					43C6BE621DE6865900852626 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ESMC7764JR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43C6BE3E1DE6865900852626;
+					};
+				};
+			};
+			buildConfigurationList = 43C6BE3A1DE6865900852626 /* Build configuration list for PBXProject "Dome-NSPredicate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C6BE361DE6865900852626;
+			productRefGroup = 43C6BE401DE6865900852626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C6BE3E1DE6865900852626 /* Dome-NSPredicate */,
+				43C6BE571DE6865900852626 /* Dome-NSPredicateTests */,
+				43C6BE621DE6865900852626 /* Dome-NSPredicateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C6BE3D1DE6865900852626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C6BE521DE6865900852626 /* LaunchScreen.storyboard in Resources */,
+				43C6BE4F1DE6865900852626 /* Assets.xcassets in Resources */,
+				43C6BE4D1DE6865900852626 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE561DE6865900852626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE611DE6865900852626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C6BE3B1DE6865900852626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C6BE4A1DE6865900852626 /* ViewController.m in Sources */,
+				43C6BE471DE6865900852626 /* AppDelegate.m in Sources */,
+				43C6BE441DE6865900852626 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE541DE6865900852626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C6BE5D1DE6865900852626 /* Dome_NSPredicateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C6BE5F1DE6865900852626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C6BE681DE6865900852626 /* Dome_NSPredicateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C6BE5A1DE6865900852626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C6BE3E1DE6865900852626 /* Dome-NSPredicate */;
+			targetProxy = 43C6BE591DE6865900852626 /* PBXContainerItemProxy */;
+		};
+		43C6BE651DE6865900852626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C6BE3E1DE6865900852626 /* Dome-NSPredicate */;
+			targetProxy = 43C6BE641DE6865900852626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C6BE4B1DE6865900852626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C6BE4C1DE6865900852626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C6BE501DE6865900852626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C6BE511DE6865900852626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C6BE6A1DE6865900852626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43C6BE6B1DE6865900852626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C6BE6D1DE6865900852626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43C6BE6E1DE6865900852626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43C6BE701DE6865900852626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dome-NSPredicate.app/Dome-NSPredicate";
+			};
+			name = Debug;
+		};
+		43C6BE711DE6865900852626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dome-NSPredicate.app/Dome-NSPredicate";
+			};
+			name = Release;
+		};
+		43C6BE731DE6865900852626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dome-NSPredicate";
+			};
+			name = Debug;
+		};
+		43C6BE741DE6865900852626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ESMC7764JR;
+				INFOPLIST_FILE = "Dome-NSPredicateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CEOsoftcenters.Dome-NSPredicateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dome-NSPredicate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C6BE3A1DE6865900852626 /* Build configuration list for PBXProject "Dome-NSPredicate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C6BE6A1DE6865900852626 /* Debug */,
+				43C6BE6B1DE6865900852626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C6BE6C1DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C6BE6D1DE6865900852626 /* Debug */,
+				43C6BE6E1DE6865900852626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43C6BE6F1DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C6BE701DE6865900852626 /* Debug */,
+				43C6BE711DE6865900852626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43C6BE721DE6865900852626 /* Build configuration list for PBXNativeTarget "Dome-NSPredicateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C6BE731DE6865900852626 /* Debug */,
+				43C6BE741DE6865900852626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C6BE371DE6865900852626 /* Project object */;
+}
